@@ -205,3 +205,56 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ============================================
+# THESIS-SPECIFIC: Large Data Files
+# ============================================
+
+# Data directories (contains large datasets)
+data/
+datasets/
+raw_data/
+
+# Specific dataset files
+*.jsonl
+*.jsonl.gz
+*.json.gz
+*.csv.gz
+*.parquet
+*.feather
+
+# Large data files (any format over 100MB typically)
+*.hdf5
+*.h5
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# Model checkpoints and weights
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Embeddings and vectors
+embeddings/
+*.vec
+*.vectors
+
+# Results and outputs (can be regenerated)
+results/
+outputs/
+experiments/
+logs/
+
+# Cached data
+*.cache
+cache/
+.cache/
+
+# Keep empty folders with .gitkeep
+!**/.gitkeep
