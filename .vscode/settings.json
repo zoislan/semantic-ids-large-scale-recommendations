@@ -1,7 +1,0 @@
-{
-    "python.defaultInterpreterPath": "/Users/zoislanaras/Thesis/venv/bin/python",
-    "python.terminal.activateEnvironment": true,
-    "jupyter.defaultKernel": "thesis",
-    "jupyter.kernelManager": "jupyter",
-    "jupyter.kernelSpecManager": "jupyter"
-}

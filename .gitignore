@@ -258,3 +258,6 @@ cache/
 
 # Keep empty folders with .gitkeep
 !**/.gitkeep
+
+# VS Code settings (now ignored)
+.vscode/
